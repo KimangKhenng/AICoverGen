@@ -11,20 +11,26 @@ WebUI is under constant development and testing, but you can try it out right no
 
 ## Table of Contents
 
-- [Changelog](#changelog)
-- [Setup](#setup)
+- [AICoverGen](#aicovergen)
+  - [Table of Contents](#table-of-contents)
+  - [Changelog](#changelog)
+  - [Update AICoverGen to latest version](#update-aicovergen-to-latest-version)
+  - [Colab notebook](#colab-notebook)
+  - [Setup](#setup)
     - [Install Git and Python](#install-git-and-python)
-    - [Install ffmpeg and sox](#install-ffmpeg)
+    - [Install ffmpeg](#install-ffmpeg)
+    - [Install sox](#install-sox)
     - [Clone AICoverGen repository](#clone-aicovergen-repository)
     - [Download required models](#download-required-models)
-- [Usage with WebUI](#usage-with-webui)
+  - [Usage with WebUI](#usage-with-webui)
     - [Download RVC models via WebUI](#download-rvc-models-via-webui)
     - [Upload RVC models via WebUI](#upload-rvc-models-via-webui)
     - [Running the pipeline via WebUI](#running-the-pipeline-via-webui)
-- [Usage with CLI](#usage-with-cli)
+  - [Usage with CLI](#usage-with-cli)
     - [Manual Download of RVC models](#manual-download-of-rvc-models)
     - [Running the pipeline via CLI](#running-the-pipeline-via-cli)
-- [Terms of Use](#terms-of-use)
+  - [Terms of Use](#terms-of-use)
+  - [Disclaimer](#disclaimer)
 
 
 ## Changelog
@@ -86,11 +92,13 @@ Follow the instructions [here](https://www.tutorialexample.com/a-step-guide-to-i
 
 ### Clone AICoverGen repository
 
-Open a command line window and run these commands to clone this entire repository and install the additional dependencies required.
+Open a command line window and run these commands to clone this entire repository and install the additional dependencies required. 
+Use pip 24.0 to ensure compatibility!
 
 ```
-git clone https://github.com/SociallyIneptWeeb/AICoverGen
+git clone https://github.com/KimangKhenng/AICoverGen
 cd AICoverGen
+pip install --upgrade pip==24.0
 pip install -r requirements.txt
 ```
 
