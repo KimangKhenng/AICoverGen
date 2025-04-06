@@ -93,7 +93,7 @@ Follow the instructions [here](https://www.tutorialexample.com/a-step-guide-to-i
 ### Clone AICoverGen repository
 
 Open a command line window and run these commands to clone this entire repository and install the additional dependencies required. 
-Use pip 24.0 to ensure compatibility!
+It's recommended to use Python 3.9 and pip 24.0 to ensure compatibility!
 
 ```
 git clone https://github.com/KimangKhenng/AICoverGen
